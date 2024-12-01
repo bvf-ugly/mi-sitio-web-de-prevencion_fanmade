@@ -1,0 +1,202 @@
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <title>Consultoría en Seguridad Web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: black;
+        position: relative;
+        z-index: 1;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('https://www.piranirisk.com/hubfs/0000000000%20AAAA%20blog/Cibernetica/h_cibernetico_7.jpg') no-repeat center center fixed;
+        background-size: cover;
+        filter: blur(15px);
+        z-index: -1;
+      }
+
+      /* Contenido con fondo acrílico */
+      .section {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+      }
+
+      header {
+        position: fixed;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 5px 20px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        transition: transform 0.2s, color 0.2s;
+      }
+
+      nav a:hover {
+        transform: scale(1.2);
+        color: yellow;
+      }
+
+      footer {
+        background-color: rgba(10, 54, 59, 0.459);
+        color: white;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      footer h3 {
+        margin-bottom: 10px;
+        color: yellow;
+      }
+
+      footer ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      footer ul li {
+        margin-bottom: 5px;
+      }
+
+      footer ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      footer ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <header>
+      <div style="display: flex; align-items: center; gap: 7px;">
+        <!-- Logo -->
+        <img src="/src/public/logo2.png" alt="Logo de la empresa" style="height: 20px; border-radius: 5px;" />
+        <nav>
+          <a href="#INICIO"> / Inicio / </a>
+          <a href="#about">Acerca de Nosotros / </a>
+          <a href="#objectives">Objetivos / </a>
+          <a href="#cases">Casos de Estudio / </a>
+          <a href="#tips">Consejos / </a>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main>
+      <section id="INICIO" class="section">
+        <h2>Consultoría en Seguridad Web</h2>
+        <p>
+          Bienvenido a nuestro sitio dedicado a protegerte contra los riesgos de páginas web maliciosas.
+           Aquí aprenderás a identificar amenazas como el phishing, malware y troyanos, además de cómo 
+           prevenirlas, adicionalmnete presentaremos otras alternativas.
+        </p>
+      </section>
+
+      <section id="about" class="section">
+        <h2>Acerca de Nosotros</h2>
+        <p>
+          Somos una empresa de consultoría en seguridad informática comprometida con la protección de datos
+           y la prevención de riesgos en línea. Nuestro objetivo es brindar herramientas y conocimiento tanto
+            a empresas como a usuarios individuales para navegar de manera segura en la web.
+        </p>
+      </section>
+
+      <section id="objectives" class="section">
+        <h2>Objetivos</h2>
+        <h3>Objetivo General</h3>
+        <p>
+          La importancia de aprender a conocer nuestras posibilidades al comprender el uso de herramientas, el
+           pensamiento lógico y la esencia en la creación de páginas web seguras.
+        </p>
+        <h3>Objetivo Específico</h3>
+        <ul>
+          <li>Aplicar lo aprendido en el análisis de páginas de bajo nivel de complejidad.</li>
+          <li>Practicar la identificación de riesgos y amenazas comunes.</li>
+          <li>Consolidar la prevención mediante la educación y ejemplos claros.</li>
+        </ul>
+      </section>
+
+      <section id="cases" class="section">
+        <h2>Casos de Estudio</h2>
+        <p>
+          Analizamos ejemplos reales de sitios maliciosos, cómo operan y las lecciones aprendidas para evitar ser
+           víctimas. Desde ataques de phishing hasta infecciones de malware, exploramos los métodos usados por los atacantes.
+        </p>
+      </section>
+
+      <section id="tips" class="section">
+        <h2>Consejos de Seguridad</h2>
+        <ul>
+          <li>Verifica siempre la autenticidad de los sitios web antes de ingresar datos personales.</li>
+          <li>Evita hacer clic en enlaces sospechosos en correos electrónicos o mensajes no solicitados.</li>
+          <li>Mantén tu software y antivirus actualizados.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+ 
+      <div>
+        <h3>Páginas de Referencia</h3>
+        <ul>
+          <li><a href="https://www.google.com/safebrowsing/" target="_blank">Google Safe Browsing</a></li>
+          <li><a href="https://www.phishing.org/" target="_blank">Phishing.org</a></li>
+          <li><a href="https://www.cisa.gov/" target="_blank">CISA</a></li>
+        </ul>
+      </div>
+
+	  <div>
+        <h3>Acerca de Nosotros (jaja, solo soy yo)</h3>
+        <p>
+          Somos expertos en ciberseguridad, enfocados en educar y proteger a empresas y usuarios frente a los riesgos en línea.
+        </p>
+        <h4> NIC_INF_troyan | All rights reserved.</h4>
+      </div>
+
+      <div>
+        <h3>Redes Sociales</h3>
+        <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
+          <li><a href="https://facebook.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #1877F2;"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #1DA1F2;"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://linkedin.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #0A66C2;"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://youtube.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #FF0000;"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>      
+    </footer>
+  </body>
+</html>
