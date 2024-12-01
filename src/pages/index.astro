@@ -7,7 +7,7 @@
     <title>Consultoría en Seguridad Web</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         margin: 0;
         padding: 0;
         color: black;
@@ -102,23 +102,35 @@
   <body>
     <div class="background"></div>
 
-    <header>
-      <div style="display: flex; align-items: center; gap: 7px;">
-        <!-- Logo -->
-        <img src="/src/public/logo2.png" alt="Logo de la empresa" style="height: 20px; border-radius: 5px;" />
-        <nav>
-          <a href="#INICIO"> / Inicio / </a>
-          <a href="#about">Acerca de Nosotros / </a>
-          <a href="#objectives">Objetivos / </a>
-          <a href="#cases">Casos de Estudio / </a>
-          <a href="#tips">Consejos / </a>
-        </nav>
+    <header data-astro-cid-j7pv25f6>
+      <div style="display: flex; align-items: center; gap: 7px;" data-astro-cid-j7pv25f6>
+          <!-- Logo -->
+          <img src="/src/public/logo2.png" alt="Logo" style="height: 20px; border-radius: 5px;" />
+          <nav data-astro-cid-j7pv25f6>
+              <a href="#INICIO" data-astro-cid-j7pv25f6> / Inicio / </a>
+              <a href="#about" data-astro-cid-j7pv25f6>Acerca de Nosotros / </a>
+              <a href="#objectives" data-astro-cid-j7pv25f6>Objetivos / </a>
+              <a href="#cases" data-astro-cid-j7pv25f6>Casos de Estudio / </a>
+              <a href="#tips" data-astro-cid-j7pv25f6>Consejos / </a>
+          </nav>
       </div>
-    </header>
+  </header>
 
     
     <main>
       <section id="INICIO" class="section">
+
+        <style>
+          img {
+            width: 200px; /* Ajusta el tamaño de la imagen */
+            height: 200px; /* Mantén la altura igual para hacerla cuadrada */
+            object-fit: cover; /* Asegura que la imagen se recorte de manera adecuada */
+            border-radius: 20px; /* Borde redondeado, puedes ajustar el valor */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Efecto de difuminado suave */
+          }
+        </style>
+
+        <img src="/src/public/cyberex.png" alt="Imagen con bordes difuminados">
         <h2>Consultoría en Seguridad Web</h2>
         <p>
           Bienvenido a nuestro sitio dedicado a protegerte contra los riesgos de páginas web maliciosas.
@@ -128,7 +140,7 @@
       </section>
 
       <section id="about" class="section">
-        <h2>Acerca de Nosotros</h2>
+        <h2>Acerca de nuestro producto</h2>
         <p>
           Somos una empresa de consultoría en seguridad informática comprometida con la protección de datos
            y la prevención de riesgos en línea. Nuestro objetivo es brindar herramientas y conocimiento tanto
@@ -157,7 +169,19 @@
           Analizamos ejemplos reales de sitios maliciosos, cómo operan y las lecciones aprendidas para evitar ser
            víctimas. Desde ataques de phishing hasta infecciones de malware, exploramos los métodos usados por los atacantes.
         </p>
-      </section>
+
+        <h2>Tipos: </h2>
+
+        <p>Ataque de denegación de servicio: logran cerrar un sitio web enviando un tráfico enorme.
+          Ataque de denegación de servicio distribuido: utilizan varias computadoras para mandar tráfico simultáneamente hacia un sitio web objetivo.
+          Ataque de malware: instalan malware en la PC con la intención de robar información de la empresa.</p>
+          
+          <h2>entre los mas comunes: </h2>
+
+          <p> 1.Malware: El primer tipo de ciberataque que nombramos aquí seguramente ya lo conoces. El malware es un término amplio que contempla diferentes clases de software malicioso, incluyendo virus, gusanos y spyware. Estos ataques aprovechan una vulnerabilidad y se introducen en la red para plantar el código nocivo.</p>
+      
+          <p>Otro de los tipos de ciberataque es el phishing, que se refiere a estafas orientadas a engañar a los usuarios para que revelen sus credenciales o cualquier otra forma de información confidencial. Esta clase de ciberamenaza recurre a la tecnología y a la ingeniería social para que las personas entreguen datos sensibles que luego serán utilizados con fines fraudulentos. </p>
+        </section>
 
       <section id="tips" class="section">
         <h2>Consejos de Seguridad</h2>
@@ -194,7 +218,7 @@
           <li><a href="https://facebook.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #1877F2;"><i class="fab fa-facebook"></i></a></li>
           <li><a href="https://twitter.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #1DA1F2;"><i class="fab fa-twitter"></i></a></li>
           <li><a href="https://linkedin.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #0A66C2;"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://youtube.com" target="_blank" style="text-decoration: none; font-size: 24px; color: #FF0000;"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://web.whatsapp.com/" target="_blank" style="text-decoration: none; font-size: 24px; color: #19ac93;"><i class="fab fa-whatsapp"></i></a></li>
         </ul>
       </div>      
     </footer>
